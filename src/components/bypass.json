@@ -1,0 +1,110 @@
+[
+    {
+        "title": "LTBEEF",
+        "description": "An exploit that allows you to disable managed extensions on versions under v106",
+        "image": "/images/ltbeef.png",
+        "rating": "4"
+    },
+    {
+        "title": "Shroot",
+        "description": "An exploit that allows you to get full control of your Chromebook with Shell / Root. Works on versions under v101",
+        "image": "/images/shroot.png",
+        "rating": "5"
+    },
+    {
+        "title": "Swamp",
+        "description": "An exploit that allows you to disable managed extensions, run bookmarklets on pages (even when blocked), break goguardian until powerwash, access to most of chrome api, and run a custom filter to block like a DNS. Works on any version except for v104",
+        "image": "/images/swamp.png",
+        "rating": "4"
+    },
+    {
+        "title": "KillCurly",
+        "description": "An exploit that allows you to kill Securly, Cisco Umbrella, Palo Alto, and Hapara",
+        "image": "/images/killcurly.png",
+        "rating": "4"
+    },
+    {
+        "title": "Downgrading",
+        "description": "A method to reduce your chrome version allowing you to get access to versions that have exploits on them.",
+        "image": "/images/downgrading.png",
+        "rating": "5"
+    },
+    {
+        "title": "UpdateBlocker",
+        "description": "An exploit that allows you to block automatic chromeos updates. Works on versions after v84",
+        "image": "/images/updateblocker.png",
+        "rating": "3"
+    },
+    {
+        "title": "Master Bypass",
+        "description": "An exploit that allows you to bypass GoGuardian and Blocksi.",
+        "image": "/images/masterbypass.png",
+        "rating": "4"
+    },
+    {
+        "title": "DNS Bypass",
+        "description": "A method that allows you to disable whatever blocker your school uses.",
+        "image": "/images/dnsbypass.png",
+        "rating": "4"
+    },
+    {
+        "title": "Inspect LTBEEF",
+        "description": "A variation of the exploit LTBEEF which allows you to disable managed extensions",
+        "image": "/images/inspectltbeef.png",
+        "rating": "4"
+    },
+    {
+        "title": "Wifi Password",
+        "description": "A method to get access to the wifi password of a policy locked wifi network.",
+        "image": "/images/wifipassword.png",
+        "rating": "3"
+    },
+    {
+        "title": "AddSession",
+        "description": "An exploit that allows you to add a personal account to websites like Gmail or YouTube",
+        "image": "/images/addsession.png",
+        "rating": "2"
+    },
+    {
+        "title": "PlaystoreBypass",
+        "description": "An exploit that allows you to gain access to a completely unblocked PlayStore",
+        "image": "/images/playstorebypass.png",
+        "rating": "3"
+    },
+    {
+        "title": "WebstoreBypass",
+        "description": "An exploit that allows you to gain access to a completely unblocked Webstore."   ,
+        "image": "/images/webstorebypass.png",
+        "rating": "3"
+    },
+    {
+        "title": "ExtensionKill",
+        "description": "An exploit that will kick the desired extension off the device for around 3 seconds",
+        "image": "/images/extensionkill.png",
+        "rating": "2"
+    },
+    {
+        "title": "Unenrollment",
+        "description": "An exploit that will allow you to unenroll your chromebook completely.",
+        "image": "/images/unenrollment.png",
+        "rating": "5"
+    },
+    {
+        "title": "Incognito",
+        "description": "An exploit that will allow you to gain access to Incognito mode. Works on versions v81 and under.",
+        "image": "/images/incognito.png",
+        "rating": "3"
+    },
+    {
+        "title": "LTWEEF",
+        "description": "An exploit that will allow you to disable managed extensions on your chromebook post v106.",
+        "image": "/images/ltbeef.png",
+        "rating": "4"
+    }, 
+    {
+        "title": "PolicyBlockBypass",
+        "description": "An exploit that will allow you to unblock policy blocked urls.",
+        "image": "/images/policyblockbypass.png",
+        "rating": "3"
+    }
+]
