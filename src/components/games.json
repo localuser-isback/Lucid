@@ -17,7 +17,7 @@
     },
     {
       "title": "Avalanche",
-      "description": "Avalanche is a fun little game where try to avoid falling objects as you jump higher and higher! Are you a towelette, or maybe a marshmallow? Whatever the case, there are huge, square bolts to dodge. Can you avoid this avalanche?",
+      "description": "Avalanche is a fu n little game where try to avoid falling objects as you jump higher and higher! Are you a towelette, or maybe a marshmallow? Whatever the case, there are huge, square bolts to dodge. Can you avoid this avalanche?",
       "image": "/images/avalanche.png",
       "route": "avalanche",
       "source": "/swf/Avalanche.swf",
