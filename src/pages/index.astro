@@ -1,12 +1,15 @@
 ---
-import Hero from "../components/Hero"
 import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
 ---
 
 <html lang="en" id="wrap">
 	<head>
+		<link rel="manifest" href="/manifest.json" />
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="apple-touch-icon" href="images/icons/icon-192x192.png" />
+		<link rel="apple-touch-icon" href="images/icons/icon-512x512.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<meta property='og:title'  content='Lucid'>
@@ -17,6 +20,16 @@ import Navbar from "../components/Navbar";
 	</head>
 	<body>
 		<script>
+			if ("serviceWorker" in navigator) {
+				window.addEventListener("load", function () {
+					navigator.serviceWorker
+					.register("/sw.js")
+					.then(res => console.log("service worker registered"))
+					.catch(err => console.log("service worker not registered", err))
+					
+				})
+			}
+
 			if (localStorage.getItem("circumventionMethod") === null) {
 				var theme = "Luxury";
 			} else {

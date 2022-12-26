@@ -15,7 +15,7 @@ function GameCard() {
                     <h2 className="card-title">{game.title}</h2>
                     <p>{game.description}</p>
                     <div className="card-actions justify-end">
-                    <button className="btn btn-primary">Launch</button>
+                    <a className="btn btn-primary" href={game.source}>Launch</a>
                     </div>
                 </div>
                 </div>
