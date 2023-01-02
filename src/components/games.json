@@ -125,7 +125,6 @@
     {
       "title": "Axis Football League",
       "description": "The first, great online football game. Choose from 14 teams and lead your team to victory.",
-      "image": "/images/axisfootballleague.png",
       "route": "axis-football-league",
       "source": "/swf/axisfootballleague.swf",
       "gameType": "flash",
