@@ -5,7 +5,7 @@
 
 
 
-[![Contributors][contributors-shield]][https://github.com/novarepo/Lucid/graphs/contributors]
+[![Contributors][contributors-shield]]https://github.com/novarepo/Lucid/graphs/contributors]
 [![Forks][forks-shield]][https://github.com/novarepo/Lucid/network/members]
 [![Stargazers][stars-shield]][https://github.com/novarepo/Lucid/stargazers]
 [![Issues][issues-shield]][https://github.com/novarepo/Lucid/issues]
