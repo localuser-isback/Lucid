@@ -1,9 +1,9 @@
 /*global Ultraviolet*/
 self.__uv$config = {
     prefix: '/service/uv/',
-    bare: 'https://void.nova.rip/bare/',
-    encodeUrl: Ultraviolet.codec.plain.encode,
-    decodeUrl: Ultraviolet.codec.plain.decode,
+    bare: '/bare/',
+    encodeUrl: Ultraviolet.codec.base64.encode,
+    decodeUrl: Ultraviolet.codec.base64.decode,
     handler: '/uv/uv.handler.js',
     client: '/uv/uv.client.js',
     bundle: '/uv/uv.bundle.js',

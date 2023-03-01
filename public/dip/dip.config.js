@@ -8,7 +8,7 @@ self.__DIP.config = {
   worker: true,
   bare: {
     version: 2,
-    path: 'https://void.nova.rip/bare/',
+    path: '/bare/',
   },
   tab: {
     title: 'Dynamic Interception Proxy',
