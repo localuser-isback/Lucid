@@ -7,3 +7,4 @@ One of the key features of Lucid is its ability to dynamically adapt to changing
 Lucid is released under an open source license, which means that anyone can access its source code, modify it, and distribute it freely. This makes Lucid a collaborative and community-driven project, with contributions from developers and users all over the world.
 
 Overall, Lucid is a powerful and innovative web proxy and unblocker that combines cutting-edge technology with an open and collaborative development approach. Whether you're looking to bypass censorship in your country, access geo-restricted content, or simply protect your online privacy, Lucid is an excellent choice for anyone who wants a fast, reliable, and customizable web proxy solution.
+
