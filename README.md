@@ -5,11 +5,6 @@
 
 
 
-[![Contributors][contributors-shield]]https://github.com/novarepo/Lucid/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/novarepo/Lucid/network/members]
-[![Stargazers][stars-shield]][https://github.com/novarepo/Lucid/stargazers]
-[![Issues][issues-shield]][https://github.com/novarepo/Lucid/issues]
-[![MIT License][license-shield]][https://github.com/novarepo/Lucid/blob/master/LICENSE.txt]
 
 
 <!-- PROJECT LOGO -->
