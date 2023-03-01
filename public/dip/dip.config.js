@@ -2,13 +2,13 @@ if (!self.__DIP) self.__DIP={};
 
 self.__DIP.config = {
   prefix: '/service/dip/',
-  encoding: 'xor',
+  encoding: 'base64',
   ws: true,
   cookies: true,
   worker: true,
   bare: {
     version: 2,
-    path: 'https://client.incog.dev',
+    path: 'https://void.nova.rip/bare/',
   },
   tab: {
     title: 'Dynamic Interception Proxy',
