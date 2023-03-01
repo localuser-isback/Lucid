@@ -20,7 +20,7 @@
     "@types/react-dom": "^18.0.9",
     "astro": "^1.9.2",
     "astro-compress": "^1.1.22",
-    "daisyui": "^2.45.0",
+    "daisyui": "^2.50.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-iframe": "^1.8.5",
